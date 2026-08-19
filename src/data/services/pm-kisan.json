@@ -1,0 +1,45 @@
+{
+  "slug": "pm-kisan",
+  "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+  "category": "schemes",
+  "department": "Ministry of Agriculture & Farmers Welfare",
+  "state": "all",
+  "summary": "Income support scheme providing ₹6,000 per year to eligible small and marginal farmer families, paid in three equal instalments via Direct Benefit Transfer.",
+  "eligibility": [
+    "Small and marginal farmer families with cultivable landholding, as per land records",
+    "Excludes institutional landholders, income-tax payers, current/former holders of constitutional posts, government employees above certain grades, and certain pensioners",
+    "Mandatory eKYC, Aadhaar-seeded bank account, and updated land records required to receive payments"
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Land ownership records",
+    "Bank account details (Aadhaar-linked)",
+    "eKYC (OTP-based, biometric, or face authentication)"
+  ],
+  "fee": "None — this is a benefit scheme, not a paid service",
+  "process": [
+    "Register on the PM-KISAN portal or through the local Common Service Centre (CSC)/patwari/revenue officer",
+    "Submit Aadhaar, land records, and bank account details",
+    "Complete mandatory eKYC verification",
+    "State government verifies land records and eligibility",
+    "Approved beneficiaries receive ₹2,000 every 4 months directly in their bank account via DBT"
+  ],
+  "officialUrl": "https://pmkisan.gov.in",
+  "applyUrl": "https://pmkisan.gov.in/RegistrationForm.aspx",
+  "trackUrl": "https://pmkisan.gov.in/BeneficiaryStatus.aspx",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of Agriculture & Farmers Welfare",
+  "faq": [
+    {
+      "question": "Why did I stop receiving instalments?",
+      "answer": "The most common reasons are incomplete eKYC, an Aadhaar-bank account mismatch, or land record verification pending with the state government. Check status on the beneficiary status page."
+    },
+    {
+      "question": "How much does PM-KISAN pay and how often?",
+      "answer": "₹6,000 per year, split into three instalments of ₹2,000 each, paid roughly every four months by Direct Benefit Transfer to the registered bank account."
+    }
+  ],
+  "relatedServices": ["income-certificate"],
+  "tags": ["pm-kisan", "farmer scheme", "agriculture", "dbt", "income support", "agri"],
+  "changeLog": []
+}

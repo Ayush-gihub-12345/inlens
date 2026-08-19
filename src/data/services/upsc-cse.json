@@ -1,0 +1,47 @@
+{
+  "slug": "upsc-cse",
+  "name": "UPSC Civil Services Examination",
+  "category": "exams-jobs",
+  "department": "Union Public Service Commission (UPSC)",
+  "state": "all",
+  "summary": "India's national-level exam for recruitment to IAS, IPS, IFS, and other central civil services, conducted in three stages: Preliminary, Main, and Interview.",
+  "eligibility": [
+    "Indian citizen (with specific relaxations for other categories for select services)",
+    "Age 21-32 years as of 1 August of the exam year (upper limit relaxed for SC/ST/OBC/PwBD/other reserved categories)",
+    "Bachelor's degree from a recognised university (final-year students can apply provisionally)",
+    "Maximum of 6 attempts for General category (relaxed for reserved categories)"
+  ],
+  "documents": [
+    "Recent photograph and signature (digital, as per specification)",
+    "Educational qualification proof",
+    "Category certificate (SC/ST/OBC/EWS/PwBD) if applicable",
+    "Valid photo ID for exam day"
+  ],
+  "fee": "₹100 for General/OBC/EWS male candidates; exempted for women, SC/ST, and PwBD candidates.",
+  "process": [
+    "Notification released (typically February) on upsc.gov.in",
+    "Apply online via the One Time Registration (OTR) and application module",
+    "Appear for Preliminary Examination (objective, 2 papers)",
+    "Qualified candidates appear for the Main Examination (9 descriptive papers)",
+    "Qualified candidates attend the Personality Test (Interview)",
+    "Final merit list and service allocation released"
+  ],
+  "officialUrl": "https://upsc.gov.in",
+  "applyUrl": "https://upsconline.nic.in",
+  "trackUrl": "https://upsc.gov.in/examinations/examination-notice",
+  "lastVerified": "2026-08-20",
+  "source": "Union Public Service Commission",
+  "faq": [
+    {
+      "question": "How many stages does the UPSC CSE have?",
+      "answer": "Three: Preliminary (screening, objective type), Main (descriptive, 9 papers), and the Personality Test (interview). Only Prelims marks are used for qualifying; Main + Interview marks determine the final rank."
+    },
+    {
+      "question": "How many attempts are allowed?",
+      "answer": "General category candidates get 6 attempts up to age 32. OBC candidates get 9 attempts up to age 35. SC/ST candidates have unlimited attempts up to age 37. PwBD relaxations apply on top of category limits."
+    }
+  ],
+  "relatedServices": [],
+  "tags": ["upsc", "civil services", "ias", "ips", "government exam", "jobs"],
+  "changeLog": []
+}

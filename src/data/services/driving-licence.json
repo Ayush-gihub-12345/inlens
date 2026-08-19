@@ -1,0 +1,45 @@
+{
+  "slug": "driving-licence",
+  "name": "Driving Licence",
+  "category": "licences",
+  "department": "Ministry of Road Transport & Highways — Parivahan/Sarathi",
+  "state": "all",
+  "summary": "Apply for a Learner's Licence followed by a Permanent Driving Licence through the state Regional Transport Office (RTO), managed via the national Sarathi/Parivahan platform.",
+  "eligibility": [
+    "Minimum age 18 for a licence to drive a motor car or motorcycle with gear (16 for gearless two-wheelers up to 50cc, with parental consent)",
+    "Must pass a learner's test and, after 30 days, a driving test at the RTO"
+  ],
+  "documents": [
+    "Proof of age (birth certificate, PAN, or Aadhaar)",
+    "Proof of address (Aadhaar, utility bill, rent agreement)",
+    "Passport-size photographs",
+    "Medical certificate (Form 1A) for certain vehicle classes or applicants above 40/50"
+  ],
+  "fee": "State-specific; illustrative RTO fees are roughly ₹200 for a Learner's Licence and ₹200-300 for a Permanent Licence, plus test and smart-card fees. Check your state RTO for exact charges.",
+  "process": [
+    "Register on the Sarathi Parivahan portal and select your state RTO",
+    "Apply for and pass the online Learner's Licence (LL) test",
+    "Download the LL, valid for 6 months",
+    "After a minimum 30-day gap, apply for the Permanent Licence and book a driving test slot",
+    "Pass the in-person driving test at the RTO",
+    "Receive the DL by post or download the e-DL"
+  ],
+  "officialUrl": "https://parivahan.gov.in",
+  "applyUrl": "https://sarathi.parivahan.gov.in",
+  "trackUrl": "https://sarathi.parivahan.gov.in/sarathiservice/statusTrack.do",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of Road Transport & Highways",
+  "faq": [
+    {
+      "question": "Can I apply for a driving licence without a learner's licence?",
+      "answer": "No. A Learner's Licence (LL) is mandatory and must be held for at least 30 days before you can appear for the Permanent Licence driving test."
+    },
+    {
+      "question": "Is the driving licence fee the same across states?",
+      "answer": "No — RTO fees are set at the state level and vary. Always confirm the current fee on your state's Sarathi/RTO page before applying."
+    }
+  ],
+  "relatedServices": ["vehicle-registration", "aadhaar-card"],
+  "tags": ["driving licence", "dl", "learner licence", "rto", "sarathi", "parivahan"],
+  "changeLog": []
+}

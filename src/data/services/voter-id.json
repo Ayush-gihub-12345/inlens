@@ -1,0 +1,44 @@
+{
+  "slug": "voter-id",
+  "name": "Voter ID (EPIC)",
+  "category": "voter",
+  "department": "Election Commission of India",
+  "state": "all",
+  "summary": "Register to vote and obtain an Elector's Photo Identity Card (EPIC) through the Election Commission's Voter Services portal.",
+  "eligibility": [
+    "Indian citizen aged 18 or above as of the qualifying date",
+    "Ordinarily resident in the constituency where registering",
+    "Not disqualified under electoral law (e.g. unsound mind as declared by a court, certain criminal convictions)"
+  ],
+  "documents": [
+    "Proof of age (birth certificate, PAN, Aadhaar, or matriculation certificate)",
+    "Proof of ordinary residence (Aadhaar, utility bill, rent agreement)",
+    "Passport-size photograph"
+  ],
+  "fee": "Free",
+  "process": [
+    "Register or log in on the Voter Services portal (voters.eci.gov.in)",
+    "Fill Form 6 (new registration), Form 8 (correction/shifting), or Form 7 (deletion/objection) as applicable",
+    "Upload supporting documents and photograph",
+    "Booth Level Officer (BLO) may conduct a field verification",
+    "Track application status online; EPIC is issued and can be downloaded as a digital e-EPIC or collected physically"
+  ],
+  "officialUrl": "https://voters.eci.gov.in",
+  "applyUrl": "https://voters.eci.gov.in/registration",
+  "trackUrl": "https://voters.eci.gov.in/status",
+  "lastVerified": "2026-08-20",
+  "source": "Election Commission of India",
+  "faq": [
+    {
+      "question": "Can I register to vote online?",
+      "answer": "Yes, through the Voter Services portal (voters.eci.gov.in), previously known as NVSP. Field verification by a Booth Level Officer may still follow before the entry is approved."
+    },
+    {
+      "question": "What if I've moved to a new address?",
+      "answer": "File Form 8 for shifting your registration to the new constituency, along with updated address proof."
+    }
+  ],
+  "relatedServices": ["aadhaar-card"],
+  "tags": ["voter id", "epic", "election commission", "eci", "voters.eci.gov.in", "nvsp"],
+  "changeLog": []
+}

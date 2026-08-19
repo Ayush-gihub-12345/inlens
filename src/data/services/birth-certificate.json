@@ -1,0 +1,42 @@
+{
+  "slug": "birth-certificate",
+  "name": "Birth Certificate",
+  "category": "certificates",
+  "department": "Office of the Registrar General of India — Civil Registration System (CRS)",
+  "state": "all",
+  "summary": "Official proof of birth registered with the local municipal or panchayat authority, issued under the Registration of Births and Deaths Act, 1969.",
+  "eligibility": [
+    "Every birth occurring in India must be registered within 21 days, free of charge, by the parent/guardian or the hospital",
+    "Late registration (after 21 days) is possible with a late fee and, beyond 1 year, may require a magistrate's order"
+  ],
+  "documents": [
+    "Hospital-issued birth intimation slip, or affidavit for home births",
+    "Proof of parents' identity and address (Aadhaar, etc.)",
+    "Proof of date and place of birth"
+  ],
+  "fee": "Free within 21 days of birth. Late registration fees and certified copy charges vary by state/municipality, typically ₹5-100 depending on delay.",
+  "process": [
+    "Hospital or informant reports the birth to the local registrar (municipal corporation/panchayat)",
+    "Registration is entered into the state's Civil Registration System (CRS)",
+    "Apply for the certificate online via your state's e-District/CRS portal or in person at the municipal office",
+    "Pay applicable fee (free if within 21 days) and download or collect the certificate"
+  ],
+  "officialUrl": "https://crsorgi.gov.in",
+  "applyUrl": "https://crsorgi.gov.in/web/index.php/auth/login",
+  "trackUrl": "https://crsorgi.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "Office of the Registrar General of India (CRS)",
+  "faq": [
+    {
+      "question": "What if the birth wasn't registered within 21 days?",
+      "answer": "It can still be registered late with a delay fee and, in some states, a self-declaration or affidavit. Registrations delayed beyond one year generally require an order from a magistrate/executive authority designated by the state."
+    },
+    {
+      "question": "Where do I actually apply — is this a central portal?",
+      "answer": "Registration and certificate issuance happen at the state/municipal level. crsorgi.gov.in is the central framework; the actual application goes through your state's CRS or e-District portal, which inLens links to on the state-specific version of this page."
+    }
+  ],
+  "relatedServices": ["passport", "income-certificate"],
+  "tags": ["birth certificate", "crs", "civil registration", "registrar"],
+  "changeLog": []
+}

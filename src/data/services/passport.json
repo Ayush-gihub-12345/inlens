@@ -1,0 +1,49 @@
+{
+  "slug": "passport",
+  "name": "Passport (Fresh Application)",
+  "category": "identity",
+  "department": "Ministry of External Affairs — Passport Seva",
+  "state": "all",
+  "summary": "Apply for a fresh Indian passport for international travel through the Passport Seva Kendra network.",
+  "eligibility": [
+    "Indian citizens of any age (minors apply through a parent/guardian)",
+    "No pending criminal proceedings or court orders barring travel/passport issuance"
+  ],
+  "documents": [
+    "Proof of address (Aadhaar, utility bill, rent agreement, etc.)",
+    "Proof of date of birth (birth certificate, PAN, matriculation certificate, or Aadhaar)",
+    "Passport-size photograph as per specification",
+    "Annexures/affidavits for special cases (e.g. minors, name change, ECR category)"
+  ],
+  "fee": "₹2,500 for a fresh 36-page passport (normal processing); ₹5,000 under Tatkaal. A 60-page passport and other categories cost more. A 10% concession applies to fresh applications for children up to 8 years and senior citizens over 60. Fees increased from ₹1,500/₹3,500 effective 1 July 2026 under the Passports (Amendment) Rules, 2026.",
+  "process": [
+    "Register on the Passport Seva portal and fill the online application form",
+    "Pay the fee online and book an appointment at a Passport Seva Kendra (PSK) or Post Office PSK",
+    "Visit the centre with original documents for verification and biometric capture",
+    "Police verification is conducted (pre- or post-issuance depending on category)",
+    "Track status online; passport is dispatched by post once cleared"
+  ],
+  "officialUrl": "https://www.passportindia.gov.in",
+  "applyUrl": "https://www.passportindia.gov.in/AppOnlineProject/welcomeLink",
+  "trackUrl": "https://www.passportindia.gov.in/AppOnlineProject/statusTracker/trackStatusInput",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of External Affairs, Passports (Amendment) Rules, 2026",
+  "faq": [
+    {
+      "question": "How long does a normal passport application take?",
+      "answer": "Typically 2-3 weeks after police verification is cleared, though this varies by city and category. Tatkaal applications are faster, often within a week."
+    },
+    {
+      "question": "Did passport fees increase in 2026?",
+      "answer": "Yes. Under the Passports (Amendment) Rules, 2026 (notified 20 June 2026, effective 1 July 2026), the fresh 36-page normal passport fee rose from ₹1,500 to ₹2,500, and Tatkaal from ₹3,500 to ₹5,000."
+    }
+  ],
+  "relatedServices": ["aadhaar-card", "birth-certificate"],
+  "tags": ["passport", "passport seva", "travel", "mea", "tatkaal"],
+  "changeLog": [
+    {
+      "date": "2026-07-01",
+      "summary": "Fresh 36-page normal passport fee increased from ₹1,500 to ₹2,500; Tatkaal from ₹3,500 to ₹5,000, under the Passports (Amendment) Rules, 2026."
+    }
+  ]
+}

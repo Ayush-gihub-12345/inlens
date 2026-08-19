@@ -1,0 +1,44 @@
+{
+  "slug": "aadhaar-card",
+  "name": "Aadhaar Card",
+  "category": "identity",
+  "department": "Unique Identification Authority of India (UIDAI)",
+  "state": "all",
+  "summary": "A 12-digit biometric identity number issued to every resident of India, used as proof of identity and address nationwide.",
+  "eligibility": [
+    "Any resident of India, including infants (via parent/guardian) and NRIs holding a valid Indian passport"
+  ],
+  "documents": [
+    "Proof of identity (passport, voter ID, PAN, ration card, etc.)",
+    "Proof of address (utility bill, bank passbook, rent agreement, etc.)",
+    "Proof of date of birth",
+    "Biometric capture (fingerprints, iris scan, photograph) done in person at an enrolment centre"
+  ],
+  "fee": "Free for new enrolment. ₹50 for demographic updates/corrections at a centre (varies for biometric updates); free updates are periodically offered online for eligible cases.",
+  "process": [
+    "Locate the nearest Aadhaar enrolment centre via the UIDAI locator",
+    "Book an appointment (where available) or walk in",
+    "Fill the enrolment form and submit identity/address proofs",
+    "Complete biometric capture (fingerprints, iris, photo) in person",
+    "Receive an enrolment ID (EID) with a receipt slip",
+    "Download the e-Aadhaar or track status online using the EID; physical card arrives by post"
+  ],
+  "officialUrl": "https://uidai.gov.in",
+  "applyUrl": "https://uidai.gov.in/en/my-aadhaar/aadhaar-enrolment.html",
+  "trackUrl": "https://myaadhaar.uidai.gov.in/CheckAadhaarStatus",
+  "lastVerified": "2026-08-20",
+  "source": "Unique Identification Authority of India (UIDAI)",
+  "faq": [
+    {
+      "question": "Is Aadhaar mandatory?",
+      "answer": "Aadhaar is not universally mandatory by law for all purposes, but it is required or widely used for opening bank accounts, filing taxes, receiving subsidies (DBT), and applying for many other government services."
+    },
+    {
+      "question": "Can I update my Aadhaar address online?",
+      "answer": "Yes, address updates can usually be done online via the myAadhaar portal with an OTP and supporting document upload, without visiting a centre."
+    }
+  ],
+  "relatedServices": ["pan-card", "voter-id"],
+  "tags": ["aadhaar", "uidai", "biometric", "identity", "e-aadhaar"],
+  "changeLog": []
+}

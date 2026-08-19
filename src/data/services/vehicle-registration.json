@@ -1,0 +1,45 @@
+{
+  "slug": "vehicle-registration",
+  "name": "Vehicle Registration (RC)",
+  "category": "vehicle",
+  "department": "Ministry of Road Transport & Highways — Parivahan",
+  "state": "all",
+  "summary": "Register a new or transferred motor vehicle and obtain a Registration Certificate (RC) through the state RTO via the Vahan portal.",
+  "eligibility": [
+    "Owner of a motor vehicle purchased in India or imported and cleared through customs",
+    "Vehicle must have valid insurance and have cleared applicable road tax"
+  ],
+  "documents": [
+    "Form 20 (application for registration)",
+    "Sale certificate (Form 21) and roadworthiness certificate (Form 22) from the dealer",
+    "Proof of address and identity of the owner",
+    "Valid insurance certificate",
+    "Road tax payment receipt and PUC (Pollution Under Control) certificate"
+  ],
+  "fee": "Varies by vehicle category and state; typically includes a registration fee, road tax (state-specific, often a percentage of ex-showroom price), and a smart-card fee. Check the Vahan portal for state-wise fee schedules.",
+  "process": [
+    "Dealer typically initiates temporary registration and forwards documents to the RTO",
+    "Verify details and pay applicable road tax and fees via the Vahan portal",
+    "RTO inspects and approves the application",
+    "Permanent Registration Certificate (RC) is issued, valid for 15 years (renewable) for private vehicles",
+    "Track and download RC status online"
+  ],
+  "officialUrl": "https://parivahan.gov.in",
+  "applyUrl": "https://vahan.parivahan.gov.in",
+  "trackUrl": "https://vahan.parivahan.gov.in/vahanservice/statusTrack.do",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of Road Transport & Highways",
+  "faq": [
+    {
+      "question": "How long is a vehicle registration valid?",
+      "answer": "For private (non-transport) vehicles, the RC is valid for 15 years and can be renewed. Commercial vehicles have shorter validity periods set by the RTO."
+    },
+    {
+      "question": "Can I register a vehicle without a dealer?",
+      "answer": "For a used or imported vehicle, or a vehicle bought outside the standard dealer process, you can apply directly at the RTO using Form 20 and the required supporting documents."
+    }
+  ],
+  "relatedServices": ["driving-licence"],
+  "tags": ["vehicle registration", "rc", "vahan", "rto", "road tax"],
+  "changeLog": []
+}

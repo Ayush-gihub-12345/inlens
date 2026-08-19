@@ -1,0 +1,45 @@
+{
+  "slug": "pan-card",
+  "name": "PAN Card (Permanent Account Number)",
+  "category": "identity",
+  "department": "Income Tax Department",
+  "state": "all",
+  "summary": "A 10-character alphanumeric identifier issued to individuals, families, and entities for tax and financial transactions.",
+  "eligibility": [
+    "Any individual, HUF, company, or entity that pays tax or conducts specified financial transactions in India",
+    "No minimum age — minors can apply through a guardian"
+  ],
+  "documents": [
+    "Proof of identity (Aadhaar, voter ID, passport, or driving licence)",
+    "Proof of address (Aadhaar, utility bill, bank statement)",
+    "Proof of date of birth (birth certificate, matriculation certificate, passport)",
+    "Passport-size photograph (for physical card)"
+  ],
+  "fee": "₹107 (₹91 + GST) for an Indian communication address; ₹1,017 (₹862 + GST) for a foreign address. Instant e-PAN via Aadhaar on the e-filing portal is free.",
+  "process": [
+    "Apply online via the Protean (formerly NSDL) portal or UTIITSL, or get an instant free e-PAN via the Income Tax e-filing portal using Aadhaar",
+    "Fill Form 49A (Indian citizens) or 49AA (foreign citizens/entities)",
+    "Upload/submit identity, address, and DOB proofs",
+    "Complete e-KYC or send physical documents if not e-signing",
+    "Pay the fee and track application status online",
+    "Receive e-PAN by email and physical card by post (7-15 working days)"
+  ],
+  "officialUrl": "https://www.incometax.gov.in/iec/foportal/",
+  "applyUrl": "https://www.protean-tinpan.com/services/pan/pan-index.html",
+  "trackUrl": "https://tin.tin.nsdl.com/pantan/StatusTrack.html",
+  "lastVerified": "2026-08-20",
+  "source": "Income Tax Department / Protean eGov Technologies",
+  "faq": [
+    {
+      "question": "Can I get a PAN card for free?",
+      "answer": "Yes — an instant e-PAN linked to your Aadhaar is free via the Income Tax e-filing portal, provided your mobile number is linked to Aadhaar. A physical card or non-Aadhaar-based application carries the standard fee."
+    },
+    {
+      "question": "How long does a PAN card take to arrive?",
+      "answer": "e-PAN is typically issued within a few hours to 2 days. The physical card is dispatched by post and generally arrives within 15 working days."
+    }
+  ],
+  "relatedServices": ["aadhaar-card", "income-certificate"],
+  "tags": ["pan", "tax", "identity", "income tax", "e-pan", "protean", "nsdl"],
+  "changeLog": []
+}

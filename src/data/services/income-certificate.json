@@ -1,0 +1,82 @@
+{
+  "slug": "income-certificate",
+  "name": "Income Certificate",
+  "category": "certificates",
+  "department": "State Revenue Department (varies by state)",
+  "state": "all",
+  "summary": "A certificate stating a family's annual income, issued by the state revenue authority and used for scholarships, reservations, and welfare scheme eligibility.",
+  "eligibility": [
+    "Any resident of the issuing state who needs proof of family income for scheme, scholarship, or reservation purposes",
+    "Typically issued by the Tehsildar/Revenue Officer/SDM of the applicant's area"
+  ],
+  "documents": [
+    "Proof of identity and residence (Aadhaar, ration card, etc.)",
+    "Salary slips or Form 16 for salaried applicants; self-declaration/affidavit for others",
+    "Land records or agricultural income proof, if applicable"
+  ],
+  "fee": "Usually nominal (roughly ₹10-50), set by the state; some states issue it free via e-District portals.",
+  "process": [
+    "Apply through your state's e-District or revenue department portal, or in person at the Tehsil/SDM office",
+    "Submit income proof and identity/address documents",
+    "Application is verified, sometimes with a field visit by a revenue official (patwari)",
+    "Certificate is issued digitally or physically, typically valid for 1 year"
+  ],
+  "officialUrl": "https://services.india.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "State Revenue Departments (via services.india.gov.in directory)",
+  "faq": [
+    {
+      "question": "Is this a central government certificate?",
+      "answer": "No — income certificates are issued by state revenue departments, so the exact portal, fee, and turnaround time depend on your state. inLens routes you to the correct state-specific process."
+    },
+    {
+      "question": "How long is an income certificate valid?",
+      "answer": "Typically 1 year from issue date, though validity rules vary by state and by the scheme it's being used for."
+    }
+  ],
+  "relatedServices": ["pan-card", "birth-certificate"],
+  "tags": ["income certificate", "revenue department", "tehsildar", "e-district"],
+  "changeLog": [],
+  "stateVariants": [
+    {
+      "stateCode": "mh",
+      "stateName": "Maharashtra",
+      "portalName": "Aaple Sarkar (MahaOnline)",
+      "applyUrl": "https://aaplesarkar.mahaonline.gov.in",
+      "fee": "₹20-50 (varies by district) plus portal service charge",
+      "processingTime": "Up to 15 working days under the RTS Act commitment",
+      "validity": "6 months from date of issue",
+      "notes": "Apply under Revenue Department services after registering with Aadhaar or mobile OTP verification."
+    },
+    {
+      "stateCode": "dl",
+      "stateName": "Delhi",
+      "portalName": "e-District Delhi",
+      "applyUrl": "https://edistrict.delhigovt.nic.in",
+      "fee": "Free for direct online submission; a small service charge applies if filed via a CSC",
+      "processingTime": "10-15 working days",
+      "validity": "Typically 1 year, department-dependent",
+      "notes": "After online submission you must also send the signed self-declaration form to the concerned SDM/Tehsildar by post or in person."
+    },
+    {
+      "stateCode": "up",
+      "stateName": "Uttar Pradesh",
+      "portalName": "e-Sathi / e-District UP",
+      "applyUrl": "https://esathi.up.gov.in",
+      "fee": "Around ₹15 online service charge",
+      "processingTime": "15-20 working days",
+      "validity": "3 years from date of issue",
+      "notes": "Register with a mobile number on the e-Sathi citizen portal before applying."
+    },
+    {
+      "stateCode": "ka",
+      "stateName": "Karnataka",
+      "portalName": "Nadakacheri (AJSK)",
+      "applyUrl": "https://nadakacheri.karnataka.gov.in",
+      "fee": "₹15-25 depending on the application channel",
+      "processingTime": "7-21 working days, pending Village Accountant and Tahsildar verification",
+      "validity": "1 year from date of issue",
+      "notes": "Requires Aadhaar eSign; the digitally signed certificate can be downloaded using the RD number once approved."
+    }
+  ]
+}
