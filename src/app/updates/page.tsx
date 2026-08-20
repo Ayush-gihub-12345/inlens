@@ -19,10 +19,10 @@ export default function UpdatesPage() {
 
   return (
     <main className="mx-auto max-w-3xl flex-1 px-6 py-10">
-      <h1 className="text-2xl font-bold text-zinc-950 dark:text-zinc-50">
+      <h1 className="text-2xl font-bold text-zinc-950">
         What&apos;s changed
       </h1>
-      <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+      <p className="mt-2 text-zinc-600">
         Tracked changes to fees, eligibility, and process across government
         services — so you don&apos;t have to check every department&apos;s
         website yourself.
@@ -33,12 +33,12 @@ export default function UpdatesPage() {
           <Link
             key={i}
             href={`/services/${service.slug}`}
-            className="block rounded-lg border border-zinc-200 bg-white px-4 py-3 hover:border-emerald-500 dark:border-zinc-800 dark:bg-zinc-900"
+            className="block rounded-lg border border-zinc-200 bg-white px-4 py-3 hover:border-emerald-500"
           >
-            <span className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
+            <span className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               {change.date}
             </span>
-            <p className="mt-1 text-sm text-zinc-800 dark:text-zinc-200">
+            <p className="mt-1 text-sm text-zinc-800">
               <span className="font-medium">{service.name}:</span>{" "}
               {change.summary}
             </p>

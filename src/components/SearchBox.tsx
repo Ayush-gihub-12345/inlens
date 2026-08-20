@@ -21,7 +21,7 @@ export default function SearchBox({
 
   return (
     <form onSubmit={onSubmit} className="w-full">
-      <div className="flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-4 py-3 shadow-sm focus-within:border-emerald-500 dark:border-zinc-700 dark:bg-zinc-900">
+      <div className="flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-4 py-3 shadow-sm focus-within:border-emerald-500">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ export default function SearchBox({
           onChange={(e) => setValue(e.target.value)}
           placeholder="Try “lost driving licence” or “PAN card fee”"
           autoFocus={autoFocus}
-          className="w-full bg-transparent text-base text-zinc-900 placeholder:text-zinc-400 outline-none dark:text-zinc-100"
+          className="w-full bg-transparent text-base text-zinc-900 placeholder:text-zinc-400 outline-none"
         />
         <button
           type="submit"

@@ -1,0 +1,45 @@
+{
+  "slug": "neet-ug",
+  "name": "NEET-UG (Medical Entrance Exam)",
+  "category": "exams-jobs",
+  "department": "National Testing Agency (NTA)",
+  "state": "all",
+  "summary": "National Eligibility cum Entrance Test for admission to MBBS, BDS, AYUSH, and other undergraduate medical courses across India.",
+  "eligibility": [
+    "Completed or appearing in Class 12 (10+2) with Physics, Chemistry, and Biology",
+    "Minimum 50% aggregate for General category; 45% for General-PwD; 40% for SC/ST/OBC and Reserved-PwD",
+    "Age between 17 and 25 years as of 31 December of the admission year (upper limit relaxed for reserved categories at some institutions)"
+  ],
+  "documents": [
+    "Class 10 and 12 mark sheets/certificates",
+    "Passport-size photograph and signature per NTA specification",
+    "Valid photo ID (Aadhaar recommended)",
+    "Category certificate (SC/ST/OBC/EWS/PwBD) if applicable"
+  ],
+  "fee": "₹1,700 for General category (India centre); ₹1,000 for SC/ST/PwBD/Third Gender; ₹9,500 for centres outside India, regardless of category.",
+  "process": [
+    "Registration opens on neet.nta.nic.in (typically February-March)",
+    "Fill the application form, upload photo/signature, and pay the fee online",
+    "Download the admit card closer to the exam date",
+    "Appear for the pen-and-paper exam (Physics, Chemistry, Biology)",
+    "Result and All India Rank released; counselling conducted separately by MCC/state authorities"
+  ],
+  "officialUrl": "https://neet.nta.nic.in",
+  "applyUrl": "https://neet.nta.nic.in",
+  "trackUrl": "https://neet.nta.nic.in",
+  "lastVerified": "2026-08-20",
+  "source": "National Testing Agency",
+  "faq": [
+    {
+      "question": "Is there an age limit for NEET-UG?",
+      "answer": "Candidates must be between 17 and 25 years as of 31 December of the admission year, though some states/quotas apply relaxed upper limits — check the current year's information bulletin."
+    },
+    {
+      "question": "Does NEET have negotiable minimum marks?",
+      "answer": "No — minimum qualifying percentile is fixed by category: 50th percentile for General, 45th for General-PwD, and 40th for SC/ST/OBC and Reserved-PwD candidates."
+    }
+  ],
+  "relatedServices": ["jee-main", "national-scholarship-portal"],
+  "tags": ["neet", "neet ug", "medical entrance", "mbbs", "nta"],
+  "changeLog": []
+}

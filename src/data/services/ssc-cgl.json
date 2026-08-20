@@ -1,0 +1,46 @@
+{
+  "slug": "ssc-cgl",
+  "name": "SSC CGL (Combined Graduate Level)",
+  "category": "exams-jobs",
+  "department": "Staff Selection Commission (SSC)",
+  "state": "all",
+  "summary": "National-level exam for recruitment to Group B and Group C posts in central government ministries and departments.",
+  "eligibility": [
+    "Indian citizen (or Nepal/Bhutan subject, or Tibetan refugee who arrived before January 1962)",
+    "Bachelor's degree in any stream from a recognised university (final-year students can apply provisionally)",
+    "Age 18-32 years as of 1 August of the exam year, with upper-age relaxation for SC/ST/OBC/PwBD/Ex-Servicemen"
+  ],
+  "documents": [
+    "Recent photograph and signature (digital, per SSC specification)",
+    "Educational qualification proof",
+    "Category certificate (SC/ST/OBC/EWS/PwBD) if applicable",
+    "Valid photo ID for exam day"
+  ],
+  "fee": "₹100 for General/OBC/EWS male candidates; women, SC, ST, PwBD, and eligible Ex-Servicemen are exempt.",
+  "process": [
+    "Notification released on ssc.gov.in (typically annually)",
+    "Register and apply online via the SSC portal, paying the fee by UPI/net banking/card",
+    "Appear for Tier 1 (objective screening exam)",
+    "Qualified candidates appear for Tier 2 (descriptive/skill test depending on post)",
+    "Document verification and medical exam (post-specific)",
+    "Final merit list and post allocation released"
+  ],
+  "officialUrl": "https://ssc.gov.in",
+  "applyUrl": "https://ssc.gov.in/login",
+  "trackUrl": "https://ssc.gov.in/notice-board",
+  "lastVerified": "2026-08-20",
+  "source": "Staff Selection Commission",
+  "faq": [
+    {
+      "question": "What's the age limit for SSC CGL?",
+      "answer": "18-32 years as of 1 August of the exam year for most posts, with relaxation of 3 years for OBC and 5 years for SC/ST candidates, and further relaxation for PwBD and Ex-Servicemen."
+    },
+    {
+      "question": "Do women have to pay the application fee?",
+      "answer": "No — women, SC, ST, PwBD, and eligible Ex-Servicemen candidates are fully exempt from the ₹100 application fee."
+    }
+  ],
+  "relatedServices": ["upsc-cse"],
+  "tags": ["ssc cgl", "staff selection commission", "government job", "group b", "group c"],
+  "changeLog": []
+}

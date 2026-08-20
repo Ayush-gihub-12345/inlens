@@ -1,0 +1,45 @@
+{
+  "slug": "jee-main",
+  "name": "JEE Main (Engineering Entrance Exam)",
+  "category": "exams-jobs",
+  "department": "National Testing Agency (NTA)",
+  "state": "all",
+  "summary": "National entrance exam for admission to NITs, IIITs, and other centrally-funded technical institutes, and the qualifying stage for JEE Advanced (IITs).",
+  "eligibility": [
+    "Passed Class 12 (or equivalent) in the last three years, or appearing in the current year",
+    "No fixed age limit",
+    "Candidates typically need Physics, Chemistry/Biology, and Mathematics in Class 12 (Mathematics is compulsory for B.Tech aspirants)"
+  ],
+  "documents": [
+    "Class 10 and 12 mark sheets",
+    "Passport-size photograph and signature per NTA specification",
+    "Valid ID proof (Aadhaar or PAN)",
+    "Category certificate if applicable"
+  ],
+  "fee": "Roughly ₹1,000 for General category and ₹500 for women/reserved-category candidates (India centres, one paper); exact figures are set fresh each cycle in the official information bulletin.",
+  "process": [
+    "Registration opens on jeemain.nta.nic.in, typically in two sessions (January and April)",
+    "Create an account, fill personal and academic details, upload documents",
+    "Pay the exam fee online and download the admit card before the exam",
+    "Appear for the computer-based test (Paper 1 for B.E./B.Tech, Paper 2 for B.Arch/B.Planning)",
+    "Result and percentile released; top scorers become eligible for JEE Advanced (IIT admission)"
+  ],
+  "officialUrl": "https://jeemain.nta.nic.in",
+  "applyUrl": "https://jeemain.nta.nic.in",
+  "trackUrl": "https://jeemain.nta.nic.in",
+  "lastVerified": "2026-08-20",
+  "source": "National Testing Agency",
+  "faq": [
+    {
+      "question": "How many attempts does JEE Main allow?",
+      "answer": "JEE Main is usually conducted in two sessions a year (January and April), and a candidate can appear in both — effectively two attempts per year, with the better of the two scores counted."
+    },
+    {
+      "question": "Is JEE Main the same as JEE Advanced?",
+      "answer": "No. JEE Main is the qualifying exam for NIT/IIIT admission and for eligibility to sit JEE Advanced, which is the separate, harder exam required specifically for IIT admission."
+    }
+  ],
+  "relatedServices": ["neet-ug"],
+  "tags": ["jee main", "engineering entrance", "nit", "iit", "nta"],
+  "changeLog": []
+}

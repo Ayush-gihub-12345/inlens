@@ -1,0 +1,43 @@
+{
+  "slug": "ayushman-bharat",
+  "name": "Ayushman Bharat (PM-JAY)",
+  "category": "schemes",
+  "department": "National Health Authority, Ministry of Health & Family Welfare",
+  "state": "all",
+  "summary": "World's largest health insurance scheme, giving eligible families cashless treatment worth ₹5 lakh per year at empanelled hospitals.",
+  "eligibility": [
+    "Rural households meeting SECC-2011 deprivation criteria (e.g. kutcha housing, no adult earning member, disabled member with no able-bodied adult)",
+    "Urban households in specified occupational categories under SECC-2011",
+    "All senior citizens aged 70 and above, regardless of income category, get an additional ₹5 lakh cover"
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Ration card or family ID",
+    "Mobile number for OTP-based e-KYC"
+  ],
+  "fee": "Free — no premium is paid by the beneficiary",
+  "process": [
+    "Check eligibility on the PM-JAY portal or via the Ayushman App using your ration card or mobile number",
+    "Complete Aadhaar-based e-KYC to generate your Ayushman Card",
+    "Download or collect the Ayushman Card from a Common Service Centre or empanelled hospital's Ayushman Mitra desk",
+    "Present the card at any empanelled hospital for cashless treatment up to the annual limit"
+  ],
+  "officialUrl": "https://pmjay.gov.in",
+  "applyUrl": "https://beneficiary.nha.gov.in",
+  "trackUrl": "https://pmjay.gov.in/hospitals/find",
+  "lastVerified": "2026-08-20",
+  "source": "National Health Authority",
+  "faq": [
+    {
+      "question": "How much health cover does PM-JAY provide?",
+      "answer": "₹5 lakh per family per year for secondary and tertiary hospitalisation. Senior citizens 70+ get an additional ₹5 lakh, on top of any existing family cover."
+    },
+    {
+      "question": "Do I need to pay anything to enrol?",
+      "answer": "No. Enrolment and treatment under PM-JAY are completely free for eligible beneficiaries at empanelled hospitals."
+    }
+  ],
+  "relatedServices": ["ration-card", "aadhaar-card"],
+  "tags": ["ayushman bharat", "pm-jay", "health insurance", "cashless treatment", "nha"],
+  "changeLog": []
+}

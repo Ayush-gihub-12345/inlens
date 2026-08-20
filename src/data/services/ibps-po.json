@@ -1,0 +1,46 @@
+{
+  "slug": "ibps-po",
+  "name": "IBPS PO (Probationary Officer)",
+  "category": "exams-jobs",
+  "department": "Institute of Banking Personnel Selection (IBPS)",
+  "state": "all",
+  "summary": "National recruitment exam for Probationary Officer posts across public sector banks, conducted in Prelims, Mains, and Interview stages.",
+  "eligibility": [
+    "Bachelor's degree in any discipline from a recognised university",
+    "Age 20-30 years as of the notified cut-off date, with relaxation for reserved categories",
+    "Indian citizen"
+  ],
+  "documents": [
+    "Scanned photograph and signature per IBPS specification",
+    "Academic certificates and degree",
+    "Valid photo ID proof",
+    "Category certificate if applicable"
+  ],
+  "fee": "₹850 for General/OBC/EWS candidates; ₹175 for SC/ST/PwBD candidates",
+  "process": [
+    "Notification released on ibps.in (typically mid-year)",
+    "Register and apply online, paying the fee via card/net banking/UPI",
+    "Appear for the Preliminary exam (objective, screening)",
+    "Qualified candidates appear for the Mains exam (objective + descriptive)",
+    "Shortlisted candidates attend a Personal Interview",
+    "Final allotment to a participating public sector bank based on merit and preference"
+  ],
+  "officialUrl": "https://www.ibps.in",
+  "applyUrl": "https://www.ibps.in/index.php/crp-po-mt-xvi",
+  "trackUrl": "https://www.ibps.in",
+  "lastVerified": "2026-08-20",
+  "source": "Institute of Banking Personnel Selection",
+  "faq": [
+    {
+      "question": "How many stages does IBPS PO have?",
+      "answer": "Three: Preliminary exam, Mains exam, and a Personal Interview. Prelims marks are qualifying only; the final merit list combines Mains and Interview scores."
+    },
+    {
+      "question": "Which banks recruit through IBPS PO?",
+      "answer": "Most public sector banks (excluding SBI, which runs its own separate recruitment) participate in the common IBPS PO process for Probationary Officer/Management Trainee posts."
+    }
+  ],
+  "relatedServices": ["ssc-cgl", "rrb-ntpc"],
+  "tags": ["ibps po", "bank exam", "probationary officer", "public sector bank job"],
+  "changeLog": []
+}

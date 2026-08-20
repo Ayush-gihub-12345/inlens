@@ -1,0 +1,45 @@
+{
+  "slug": "national-scholarship-portal",
+  "name": "National Scholarship Portal (NSP)",
+  "category": "schemes",
+  "department": "Ministry of Electronics & IT / Department of School Education & Literacy",
+  "state": "all",
+  "summary": "Single window portal bringing together 140+ central and state scholarship schemes for students from Class 1 to PhD.",
+  "eligibility": [
+    "Varies by individual scheme — generally Indian citizens enrolled in a recognised institution",
+    "Family income ceilings, academic performance thresholds, and category reservations (SC/ST/OBC/EWS/minority/girls/PwBD) differ per scheme"
+  ],
+  "documents": [
+    "Aadhaar number",
+    "Bank account details (Aadhaar-seeded, for DBT)",
+    "Latest academic mark sheet",
+    "Income certificate",
+    "Caste certificate, where the scheme requires it"
+  ],
+  "fee": "Free — no application fee for any NSP scheme",
+  "process": [
+    "Complete One Time Registration (OTR) on scholarships.gov.in with Aadhaar, mobile number, and face authentication",
+    "Log in and browse schemes you're eligible for",
+    "Fill the scheme-specific application form and upload supporting documents",
+    "Submit — the application routes to your institution for verification",
+    "After institutional and state-level verification, the scholarship amount is disbursed via Direct Benefit Transfer"
+  ],
+  "officialUrl": "https://scholarships.gov.in",
+  "applyUrl": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction",
+  "trackUrl": "https://scholarships.gov.in/",
+  "lastVerified": "2026-08-20",
+  "source": "Department of School Education & Literacy, Ministry of Education",
+  "faq": [
+    {
+      "question": "Do I need to register separately for each scholarship?",
+      "answer": "No — you complete One Time Registration (OTR) once on NSP, then apply to any number of eligible schemes each year using the same OTR ID."
+    },
+    {
+      "question": "How long does disbursal take after applying?",
+      "answer": "It depends on institutional and state verification timelines, which vary widely by scheme; check your application status on the NSP dashboard for the current stage."
+    }
+  ],
+  "relatedServices": ["income-certificate", "caste-certificate"],
+  "tags": ["nsp", "scholarship", "national scholarship portal", "otr", "student scholarship"],
+  "changeLog": []
+}

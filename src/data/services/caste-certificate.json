@@ -1,0 +1,83 @@
+{
+  "slug": "caste-certificate",
+  "name": "Caste Certificate",
+  "category": "certificates",
+  "department": "State Revenue Department (varies by state)",
+  "state": "all",
+  "summary": "Official proof that an individual belongs to a Scheduled Caste (SC), Scheduled Tribe (ST), or Other Backward Class (OBC) community, used for reservation in education, jobs, and welfare schemes.",
+  "eligibility": [
+    "Applicant's community must appear on the state government's recognised SC/ST/OBC list",
+    "For minors, a parent or guardian can apply on the child's behalf"
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Ration card or proof of residence",
+    "Father's or paternal-side caste proof/certificate",
+    "Passport-size photograph"
+  ],
+  "fee": "Usually free or a nominal charge, depending on the state",
+  "process": [
+    "Apply through your state's e-District/revenue department portal, or in person at the Tehsil/SDM office",
+    "Submit identity, residence, and paternal caste-proof documents",
+    "Application is verified, sometimes with a field enquiry by a revenue official",
+    "Certificate is issued digitally or physically"
+  ],
+  "officialUrl": "https://services.india.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "State Revenue Departments (via services.india.gov.in directory)",
+  "faq": [
+    {
+      "question": "How long is a caste certificate valid?",
+      "answer": "SC/ST certificates are typically permanent, issued once for life. OBC (Non-Creamy Layer) certificates are usually income-linked and must be renewed annually or every few years, depending on the state and the purpose."
+    },
+    {
+      "question": "Is this issued by the central government?",
+      "answer": "No — like income certificates, caste certificates are issued by state revenue departments, so the exact portal and process depend on your state."
+    }
+  ],
+  "relatedServices": ["income-certificate", "national-scholarship-portal"],
+  "tags": ["caste certificate", "sc st obc", "reservation", "revenue department"],
+  "changeLog": [],
+  "stateVariants": [
+    {
+      "stateCode": "mh",
+      "stateName": "Maharashtra",
+      "portalName": "Aaple Sarkar (MahaOnline)",
+      "applyUrl": "https://aaplesarkar.mahaonline.gov.in",
+      "fee": "Free to nominal (varies by district)",
+      "processingTime": "Up to 21 working days, may involve a field enquiry by the Talathi/Tehsildar",
+      "validity": "SC/ST: lifelong. OBC (Non-Creamy Layer): typically 1 year",
+      "notes": "Apply under Revenue Department services; a Caste Validity Certificate from the Caste Scrutiny Committee may additionally be required for admissions/jobs."
+    },
+    {
+      "stateCode": "dl",
+      "stateName": "Delhi",
+      "portalName": "e-District Delhi",
+      "applyUrl": "https://edistrict.delhigovt.nic.in",
+      "fee": "Free for online submission",
+      "processingTime": "10-15 working days",
+      "validity": "SC/ST: lifelong. OBC: typically 1 year",
+      "notes": "The signed self-declaration/verification form generally must also be sent to the concerned SDM office after online submission."
+    },
+    {
+      "stateCode": "up",
+      "stateName": "Uttar Pradesh",
+      "portalName": "e-Sathi / e-District UP",
+      "applyUrl": "https://esathi.up.gov.in",
+      "fee": "Nominal online service charge, around ₹15",
+      "processingTime": "15-20 working days",
+      "validity": "SC/ST: lifelong. OBC: typically 3 years",
+      "notes": "Register with a mobile number on the e-Sathi citizen portal before applying."
+    },
+    {
+      "stateCode": "ka",
+      "stateName": "Karnataka",
+      "portalName": "Nadakacheri (AJSK)",
+      "applyUrl": "https://nadakacheri.karnataka.gov.in",
+      "fee": "₹15-25 depending on application channel",
+      "processingTime": "7-21 working days, pending Village Accountant and Tahsildar verification",
+      "validity": "SC/ST: lifelong. OBC: typically 1 year",
+      "notes": "Requires Aadhaar eSign; download the digitally signed certificate using the RD number once approved."
+    }
+  ]
+}

@@ -84,10 +84,10 @@ export default async function ServiceStatePage({
         / {variant.stateName}
       </nav>
 
-      <h1 className="mt-2 text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+      <h1 className="mt-2 text-3xl font-bold text-zinc-950">
         {service.name} in {variant.stateName}
       </h1>
-      <p className="mt-2 text-lg text-zinc-600 dark:text-zinc-400">
+      <p className="mt-2 text-lg text-zinc-600">
         Issued through {variant.portalName}. {service.summary}
       </p>
 
@@ -102,7 +102,7 @@ export default async function ServiceStatePage({
         </a>
         <Link
           href={`/services/${service.slug}`}
-          className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500 dark:border-zinc-700 dark:text-zinc-300"
+          className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500"
         >
           General requirements ↗
         </Link>
@@ -116,17 +116,17 @@ export default async function ServiceStatePage({
       </dl>
 
       {variant.notes && (
-        <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-4 text-sm text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300">
+        <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-4 text-sm text-zinc-700">
           <span className="font-semibold">Note for {variant.stateName}: </span>
           {variant.notes}
         </div>
       )}
 
       <div className="mt-10">
-        <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+        <h2 className="text-lg font-semibold text-zinc-950">
           Documents required
         </h2>
-        <ul className="mt-3 list-disc space-y-1.5 pl-5 text-zinc-700 dark:text-zinc-300">
+        <ul className="mt-3 list-disc space-y-1.5 pl-5 text-zinc-700">
           {service.documents.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
@@ -135,7 +135,7 @@ export default async function ServiceStatePage({
 
       {(service.stateVariants?.length ?? 0) > 1 && (
         <div className="mt-10">
-          <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+          <h2 className="text-lg font-semibold text-zinc-950">
             Other states
           </h2>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -145,7 +145,7 @@ export default async function ServiceStatePage({
                 <Link
                   key={v.stateCode}
                   href={`/services/${service.slug}/${v.stateCode}`}
-                  className="rounded-full border border-zinc-300 px-3 py-1.5 text-sm font-medium text-zinc-700 hover:border-emerald-500 hover:text-emerald-700 dark:border-zinc-700 dark:text-zinc-300"
+                  className="rounded-full border border-zinc-300 px-3 py-1.5 text-sm font-medium text-zinc-700 hover:border-emerald-500 hover:text-emerald-700"
                 >
                   {v.stateName}
                 </Link>
@@ -165,11 +165,11 @@ export default async function ServiceStatePage({
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+    <div className="rounded-lg border border-zinc-200 bg-white p-4">
       <dt className="text-xs font-medium uppercase tracking-wide text-zinc-500">
         {label}
       </dt>
-      <dd className="mt-1 text-sm font-medium text-zinc-900 dark:text-zinc-100">
+      <dd className="mt-1 text-sm font-medium text-zinc-900">
         {value}
       </dd>
     </div>

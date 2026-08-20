@@ -1,0 +1,46 @@
+{
+  "slug": "rrb-ntpc",
+  "name": "RRB NTPC (Railway Recruitment)",
+  "category": "exams-jobs",
+  "department": "Railway Recruitment Board (RRB)",
+  "state": "all",
+  "summary": "Non-Technical Popular Categories recruitment exam for graduate and undergraduate posts across Indian Railways, including Station Master, Goods Guard, and Clerk roles.",
+  "eligibility": [
+    "Undergraduate posts: passed Class 12 (10+2) from a recognised board",
+    "Graduate posts: bachelor's degree from a recognised university, plus typing proficiency in English or Hindi for some posts",
+    "Age limits vary by post, typically 18-33 years with category-based relaxation"
+  ],
+  "documents": [
+    "Educational qualification certificates",
+    "Passport-size photograph and signature per RRB specification",
+    "Valid photo ID",
+    "Category certificate if applicable"
+  ],
+  "fee": "₹500 for General/OBC/EWS candidates (₹400 refunded after appearing for CBT 1); ₹250 for women, SC, ST, and other exempted categories (fully refunded after appearing for CBT 1).",
+  "process": [
+    "Notification released separately by RRB zones for Graduate and Undergraduate levels",
+    "Apply online through the relevant regional RRB website",
+    "Appear for Computer Based Test 1 (CBT 1), a screening round",
+    "Qualified candidates appear for CBT 2",
+    "Typing skill test or document verification (post-dependent), followed by medical examination",
+    "Final merit list and zone/post allocation released"
+  ],
+  "officialUrl": "https://www.rrbcdg.gov.in",
+  "applyUrl": "https://www.rrbapply.gov.in",
+  "trackUrl": "https://www.rrbcdg.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "Railway Recruitment Board",
+  "faq": [
+    {
+      "question": "Is the RRB NTPC fee refunded?",
+      "answer": "Partially — General/OBC/EWS candidates get ₹400 refunded (of the ₹500 fee) after appearing for CBT 1, while women, SC, ST, and other exempted categories get a full refund of their ₹250 fee."
+    },
+    {
+      "question": "Do all RRB NTPC posts require the same qualification?",
+      "answer": "No — undergraduate-level posts need only Class 12, while graduate-level posts require a bachelor's degree. Each notification specifies which posts fall under which level."
+    }
+  ],
+  "relatedServices": ["ssc-cgl", "ibps-po"],
+  "tags": ["rrb ntpc", "railway recruitment", "railway job", "rrb exam"],
+  "changeLog": []
+}

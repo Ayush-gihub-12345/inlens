@@ -37,7 +37,7 @@ export default async function SearchPage({
       </div>
 
       {q && results.length === 0 && (
-        <div className="mt-8 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-zinc-500 dark:border-zinc-700">
+        <div className="mt-8 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-zinc-500">
           <p>No matching service yet. inLens is still growing its coverage.</p>
         </div>
       )}

@@ -127,17 +127,17 @@ export default async function ServicePage({
         </Link>
       </nav>
 
-      <h1 className="mt-2 text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+      <h1 className="mt-2 text-3xl font-bold text-zinc-950">
         {service.name}
       </h1>
-      <p className="mt-2 text-lg text-zinc-600 dark:text-zinc-400">
+      <p className="mt-2 text-lg text-zinc-600">
         {service.summary}
       </p>
 
       <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-zinc-500">
         <span>{service.department}</span>
         <span aria-hidden>·</span>
-        <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-2.5 py-0.5 font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-2.5 py-0.5 font-medium text-emerald-700">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -153,7 +153,7 @@ export default async function ServicePage({
       </div>
 
       {latestChange && (
-        <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+        <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
           <span className="font-semibold">Recently changed ({latestChange.date}):</span>{" "}
           {latestChange.summary}
         </div>
@@ -175,7 +175,7 @@ export default async function ServicePage({
             href={service.trackUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500 dark:border-zinc-700 dark:text-zinc-300"
+            className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500"
           >
             Track application ↗
           </a>
@@ -184,15 +184,15 @@ export default async function ServicePage({
           href={service.officialUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500 dark:border-zinc-700 dark:text-zinc-300"
+          className="rounded-lg border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:border-emerald-500"
         >
           Official source ↗
         </a>
       </div>
 
       {service.stateVariants && service.stateVariants.length > 0 && (
-        <div className="mt-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 dark:border-emerald-900 dark:bg-emerald-950/40">
-          <p className="text-sm font-medium text-emerald-900 dark:text-emerald-300">
+        <div className="mt-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4">
+          <p className="text-sm font-medium text-emerald-900">
             This service is issued by state governments — the portal, fee,
             and processing time vary. Select your state:
           </p>
@@ -201,7 +201,7 @@ export default async function ServicePage({
               <Link
                 key={v.stateCode}
                 href={`/services/${service.slug}/${v.stateCode}`}
-                className="rounded-full border border-emerald-300 bg-white px-3 py-1.5 text-sm font-medium text-emerald-700 hover:border-emerald-500 dark:border-emerald-800 dark:bg-zinc-900 dark:text-emerald-400"
+                className="rounded-full border border-emerald-300 bg-white px-3 py-1.5 text-sm font-medium text-emerald-700 hover:border-emerald-500"
               >
                 {v.stateName}
               </Link>
@@ -211,7 +211,7 @@ export default async function ServicePage({
       )}
 
       <Section title="Who is eligible">
-        <ul className="list-disc space-y-1.5 pl-5 text-zinc-700 dark:text-zinc-300">
+        <ul className="list-disc space-y-1.5 pl-5 text-zinc-700">
           {service.eligibility.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
@@ -219,7 +219,7 @@ export default async function ServicePage({
       </Section>
 
       <Section title="Documents required">
-        <ul className="list-disc space-y-1.5 pl-5 text-zinc-700 dark:text-zinc-300">
+        <ul className="list-disc space-y-1.5 pl-5 text-zinc-700">
           {service.documents.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
@@ -227,11 +227,11 @@ export default async function ServicePage({
       </Section>
 
       <Section title="Fee">
-        <p className="text-zinc-700 dark:text-zinc-300">{service.fee}</p>
+        <p className="text-zinc-700">{service.fee}</p>
       </Section>
 
       <Section title="How to apply — step by step">
-        <ol className="list-decimal space-y-1.5 pl-5 text-zinc-700 dark:text-zinc-300">
+        <ol className="list-decimal space-y-1.5 pl-5 text-zinc-700">
           {service.process.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
@@ -243,10 +243,10 @@ export default async function ServicePage({
           <div className="space-y-4">
             {service.faq.map((item, i) => (
               <div key={i}>
-                <p className="font-medium text-zinc-900 dark:text-zinc-100">
+                <p className="font-medium text-zinc-900">
                   {item.question}
                 </p>
-                <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+                <p className="mt-1 text-zinc-600">
                   {item.answer}
                 </p>
               </div>
@@ -263,7 +263,7 @@ export default async function ServicePage({
 
       {related.length > 0 && (
         <div className="mt-10">
-          <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+          <h2 className="text-lg font-semibold text-zinc-950">
             Related services
           </h2>
           <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -286,7 +286,7 @@ function Section({
 }) {
   return (
     <section className="mt-8">
-      <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+      <h2 className="text-lg font-semibold text-zinc-950">
         {title}
       </h2>
       <div className="mt-3">{children}</div>

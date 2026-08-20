@@ -1,0 +1,46 @@
+{
+  "slug": "pm-awas-yojana",
+  "name": "PM Awas Yojana (PMAY 2.0)",
+  "category": "schemes",
+  "department": "Ministry of Housing & Urban Affairs",
+  "state": "all",
+  "summary": "Housing scheme offering interest subsidy on home loans and direct assistance to help Economically Weaker Section, Low Income, and Middle Income families buy or build a home.",
+  "eligibility": [
+    "Economically Weaker Section (EWS): household income up to ₹3 lakh/year",
+    "Low Income Group (LIG): ₹3-6 lakh/year",
+    "Middle Income Group (MIG): ₹6-18 lakh/year, eligible for a smaller subsidy slab",
+    "Applicant or family should not already own a pucca house anywhere in India"
+  ],
+  "documents": [
+    "Aadhaar card of all family members",
+    "Income proof/certificate",
+    "Bank account details",
+    "Property documents (for construction/enhancement) or builder-buyer agreement (for purchase)"
+  ],
+  "fee": "No application fee. Benefit is an interest subsidy of up to ₹1.8 lakh (roughly ₹36,000/year for 5 years under the Credit-Linked Subsidy Scheme) rather than a cash grant.",
+  "process": [
+    "Check eligibility and income category on the PMAY-Urban portal",
+    "Register with Aadhaar and complete the online application form",
+    "Upload income, identity, and property/loan documents",
+    "Application is verified by the Urban Local Body / lending bank",
+    "Subsidy is credited directly to the home loan account upon approval"
+  ],
+  "officialUrl": "https://pmaymis.gov.in",
+  "applyUrl": "https://pmaymis.gov.in/PMAYMIS2_2015/PmayDefault.aspx",
+  "trackUrl": "https://pmaymis.gov.in/Track_Application_Status.aspx",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of Housing & Urban Affairs",
+  "faq": [
+    {
+      "question": "Is PMAY a cash grant?",
+      "answer": "For most urban applicants it's an interest subsidy on a home loan, credited upfront to reduce the effective loan amount — not a direct cash payout. Total assistance typically works out to roughly ₹1.5-2.5 lakh depending on income category and loan size."
+    },
+    {
+      "question": "Can I apply if I already own land but no house?",
+      "answer": "Yes — owning land without a pucca house doesn't disqualify you; the scheme covers both construction on owned land and purchase of a new home."
+    }
+  ],
+  "relatedServices": ["income-certificate", "aadhaar-card"],
+  "tags": ["pmay", "pm awas yojana", "housing scheme", "home loan subsidy", "clss"],
+  "changeLog": []
+}

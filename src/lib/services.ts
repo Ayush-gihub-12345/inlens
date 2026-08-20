@@ -1,24 +1,56 @@
 import type { Service, ServiceCategory } from "./types";
 
 import aadhaarCard from "@/data/services/aadhaar-card.json";
+import ayushmanBharat from "@/data/services/ayushman-bharat.json";
 import birthCertificate from "@/data/services/birth-certificate.json";
+import casteCertificate from "@/data/services/caste-certificate.json";
+import deathCertificate from "@/data/services/death-certificate.json";
+import domicileCertificate from "@/data/services/domicile-certificate.json";
 import drivingLicence from "@/data/services/driving-licence.json";
+import ibpsPo from "@/data/services/ibps-po.json";
 import incomeCertificate from "@/data/services/income-certificate.json";
+import jeeMain from "@/data/services/jee-main.json";
+import kisanCreditCard from "@/data/services/kisan-credit-card.json";
+import marriageCertificate from "@/data/services/marriage-certificate.json";
+import nationalScholarshipPortal from "@/data/services/national-scholarship-portal.json";
+import neetUg from "@/data/services/neet-ug.json";
 import panCard from "@/data/services/pan-card.json";
 import passport from "@/data/services/passport.json";
+import pmAwasYojana from "@/data/services/pm-awas-yojana.json";
+import pmFasalBimaYojana from "@/data/services/pm-fasal-bima-yojana.json";
 import pmKisan from "@/data/services/pm-kisan.json";
+import rationCard from "@/data/services/ration-card.json";
+import rrbNtpc from "@/data/services/rrb-ntpc.json";
+import sscCgl from "@/data/services/ssc-cgl.json";
+import udidDisabilityCertificate from "@/data/services/udid-disability-certificate.json";
 import upscCse from "@/data/services/upsc-cse.json";
 import vehicleRegistration from "@/data/services/vehicle-registration.json";
 import voterId from "@/data/services/voter-id.json";
 
 const services: Service[] = [
   aadhaarCard,
+  ayushmanBharat,
   birthCertificate,
+  casteCertificate,
+  deathCertificate,
+  domicileCertificate,
   drivingLicence,
+  ibpsPo,
   incomeCertificate,
+  jeeMain,
+  kisanCreditCard,
+  marriageCertificate,
+  nationalScholarshipPortal,
+  neetUg,
   panCard,
   passport,
+  pmAwasYojana,
+  pmFasalBimaYojana,
   pmKisan,
+  rationCard,
+  rrbNtpc,
+  sscCgl,
+  udidDisabilityCertificate,
   upscCse,
   vehicleRegistration,
   voterId,

@@ -1,0 +1,42 @@
+{
+  "slug": "domicile-certificate",
+  "name": "Domicile / Residence Certificate",
+  "category": "certificates",
+  "department": "State Revenue Department (varies by state)",
+  "state": "all",
+  "summary": "Proof that a person is a permanent resident of a particular state or Union Territory, used for state-quota admissions, jobs, and scheme eligibility.",
+  "eligibility": [
+    "Resident of the state for a minimum period, usually 5-15 years depending on the state",
+    "Or ownership of permanent property/home in the state, or parents being native residents",
+    "Minors can obtain one based on a parent's domicile status"
+  ],
+  "documents": [
+    "Identity proof (Aadhaar, voter ID)",
+    "Address proof spanning the required residency period (utility bills, property documents, school records)",
+    "Passport-size photograph",
+    "Educational records showing schooling in the state, where applicable"
+  ],
+  "fee": "Typically ₹10-100 depending on the state; some states issue it free",
+  "process": [
+    "Apply via your state's e-District or revenue department portal, or in person at the Tehsil/SDM office",
+    "Submit proof of long-term residence and identity documents",
+    "Application is verified by the local revenue official, occasionally with a field visit",
+    "Certificate issued digitally or physically, typically within 7-15 working days (Tatkal/express options exist in some states)"
+  ],
+  "officialUrl": "https://services.india.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "State Revenue Departments (via services.india.gov.in directory)",
+  "faq": [
+    {
+      "question": "What's the difference between a domicile certificate and a residence certificate?",
+      "answer": "The terms are used interchangeably in most states, though some states distinguish 'domicile' (longer-term, native-resident status) from 'residence' (current address proof). Check your state's exact terminology before applying."
+    },
+    {
+      "question": "How many years of residency are usually required?",
+      "answer": "Most states require 5-15 continuous years of residence, though this varies significantly — some states grant it based on property ownership or a parent's domicile status regardless of the applicant's own residency duration."
+    }
+  ],
+  "relatedServices": ["income-certificate", "caste-certificate"],
+  "tags": ["domicile certificate", "residence certificate", "state quota", "revenue department"],
+  "changeLog": []
+}

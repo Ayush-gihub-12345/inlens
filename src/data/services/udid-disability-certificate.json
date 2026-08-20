@@ -1,0 +1,43 @@
+{
+  "slug": "udid-disability-certificate",
+  "name": "UDID Card (Unique Disability ID)",
+  "category": "certificates",
+  "department": "Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice & Empowerment",
+  "state": "all",
+  "summary": "A single, nationally-recognised disability identity card and certificate, replacing multiple state-issued disability certificates for accessing government benefits.",
+  "eligibility": [
+    "Any individual with a disability recognised under the Rights of Persons with Disabilities (RPwD) Act, 2016"
+  ],
+  "documents": [
+    "Aadhaar card (if available)",
+    "Address proof (voter ID, ration card, utility bill)",
+    "Passport-size photograph",
+    "Disability assessment/certificate from a government hospital or authorised medical board"
+  ],
+  "fee": "Free",
+  "process": [
+    "Register on the Swavlamban (UDID) portal",
+    "Fill personal, disability, and identity details online",
+    "Book an appointment for medical assessment at a government hospital, if not already assessed",
+    "Medical board verifies and certifies the disability percentage and type",
+    "UDID card is generated and can be downloaded or collected physically"
+  ],
+  "officialUrl": "https://swavlambancard.gov.in",
+  "applyUrl": "https://swavlambancard.gov.in/user/register",
+  "trackUrl": "https://swavlambancard.gov.in/track_application",
+  "lastVerified": "2026-08-20",
+  "source": "Department of Empowerment of Persons with Disabilities",
+  "faq": [
+    {
+      "question": "Does the UDID card replace my old state disability certificate?",
+      "answer": "Yes — UDID is designed to be the single, nationally-valid disability ID and certificate, so you don't need separate state-issued certificates once it's issued."
+    },
+    {
+      "question": "Is a medical examination always required?",
+      "answer": "Yes, unless you already have a valid disability certificate from a recognised government medical authority that can be linked during registration."
+    }
+  ],
+  "relatedServices": ["ration-card", "pm-awas-yojana"],
+  "tags": ["udid", "disability certificate", "swavlamban", "divyang", "pwd"],
+  "changeLog": []
+}

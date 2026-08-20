@@ -1,0 +1,46 @@
+{
+  "slug": "kisan-credit-card",
+  "name": "Kisan Credit Card (KCC)",
+  "category": "agri",
+  "department": "Ministry of Agriculture & Farmers Welfare / NABARD, via participating banks",
+  "state": "all",
+  "summary": "Low-interest credit line for farmers to cover cultivation costs, post-harvest expenses, and allied agricultural activities, at an effective interest rate of around 4% with prompt repayment.",
+  "eligibility": [
+    "Individual or joint owner-cultivators of agricultural land",
+    "Tenant farmers, oral lessees, and sharecroppers",
+    "Self Help Groups (SHGs) and Joint Liability Groups (JLGs) of farmers",
+    "Age 18-75 years (co-borrower required for applicants above 60)"
+  ],
+  "documents": [
+    "Identity proof (Aadhaar, voter ID, driving licence, or passport)",
+    "Address proof",
+    "Proof of land holding certified by revenue authorities",
+    "Details of crops cultivated and land area"
+  ],
+  "fee": "No application fee. Effective interest rate is about 4% per annum on loans up to ₹5 lakh, after a 2% interest subvention plus a 3% Prompt Repayment Incentive from the government.",
+  "process": [
+    "Apply via the Jan Samarth portal, or directly at any participating bank branch",
+    "Provide land records, cropping pattern, and identity/address documents",
+    "Bank assesses credit limit using the Scale of Finance formula (crop type × land area, plus allowances)",
+    "KCC is sanctioned and linked to a RuPay Kisan Credit Card for cash withdrawal at ATMs/PoS",
+    "Renew annually based on updated land records and repayment history"
+  ],
+  "officialUrl": "https://www.jansamarth.in",
+  "applyUrl": "https://www.jansamarth.in/bank-scheme-list?schemeCategory=Agri%20Infra",
+  "trackUrl": "https://www.jansamarth.in",
+  "lastVerified": "2026-08-20",
+  "source": "NABARD / Ministry of Agriculture & Farmers Welfare",
+  "faq": [
+    {
+      "question": "What is the maximum KCC credit limit?",
+      "answer": "Up to ₹5 lakh benefits from the government interest subvention (raised from ₹3 lakh in Budget 2025-26). Higher limits are possible but lose the subsidised interest rate on the excess amount."
+    },
+    {
+      "question": "Can tenant farmers apply for KCC?",
+      "answer": "Yes — tenant farmers, oral lessees, sharecroppers, and members of Self Help Groups/Joint Liability Groups are all eligible, not just landowners."
+    }
+  ],
+  "relatedServices": ["pm-kisan", "pm-fasal-bima-yojana"],
+  "tags": ["kisan credit card", "kcc", "farm loan", "agriculture credit", "nabard"],
+  "changeLog": []
+}

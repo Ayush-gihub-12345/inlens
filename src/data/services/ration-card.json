@@ -1,0 +1,43 @@
+{
+  "slug": "ration-card",
+  "name": "Ration Card",
+  "category": "certificates",
+  "department": "State Food & Civil Supplies Department, under the National Food Security Act (NFSA), 2013",
+  "state": "all",
+  "summary": "State-issued document enabling subsidised food grains through the Public Distribution System (PDS), and widely used as identity/address proof.",
+  "eligibility": [
+    "Indian citizen; the household must not already hold a ration card in any other state",
+    "Valid Aadhaar for every family member to be included",
+    "Card category (AAY/PHH/APL) depends on household income and NFSA priority criteria set by the state"
+  ],
+  "documents": [
+    "Aadhaar card of all family members",
+    "Proof of address",
+    "Proof of income/category eligibility",
+    "Passport-size photographs of the head of household"
+  ],
+  "fee": "Usually free or a nominal processing fee (varies by state, often under ₹50)",
+  "process": [
+    "Visit your state's Food & Civil Supplies Department portal",
+    "Register with mobile number and Aadhaar OTP verification",
+    "Fill the family details form and upload required documents",
+    "Application is verified by the local Food Inspector/local body",
+    "Ration card is issued digitally and linked to the Public Distribution System"
+  ],
+  "officialUrl": "https://nfsa.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "Department of Food & Public Distribution (via state portals)",
+  "faq": [
+    {
+      "question": "Can I use my ration card in a different state after moving?",
+      "answer": "Yes — under One Nation One Ration Card (ONORC), NFSA beneficiaries can draw their entitled food grains from any Fair Price Shop across all states and UTs, not just where the card was issued."
+    },
+    {
+      "question": "Is a ration card issued centrally or by the state?",
+      "answer": "By the state — NFSA sets the national framework, but each state's Food & Civil Supplies Department runs its own portal and issuance process."
+    }
+  ],
+  "relatedServices": ["income-certificate", "ayushman-bharat"],
+  "tags": ["ration card", "pds", "nfsa", "one nation one ration card", "onorc"],
+  "changeLog": []
+}

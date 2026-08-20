@@ -1,0 +1,46 @@
+{
+  "slug": "pm-fasal-bima-yojana",
+  "name": "PM Fasal Bima Yojana (Crop Insurance)",
+  "category": "agri",
+  "department": "Ministry of Agriculture & Farmers Welfare",
+  "state": "all",
+  "summary": "India's flagship crop insurance scheme, protecting farmers against yield loss from natural calamities, pests, and diseases at a heavily subsidised premium.",
+  "eligibility": [
+    "All farmers growing notified crops in notified areas, with an insurable interest in the crop",
+    "Loanee farmers (those with Seasonal Agricultural Operations loans) are covered automatically",
+    "Non-loanee farmers can opt in voluntarily",
+    "Valid land ownership record or land tenure/lease agreement required"
+  ],
+  "documents": [
+    "Aadhaar card",
+    "Land ownership record or tenancy/lease agreement",
+    "Bank account details",
+    "Sowing certificate/declaration of crop and area"
+  ],
+  "fee": "Farmer pays only 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for horticultural/commercial crops; the rest of the actuarial premium is subsidised by the central and state governments.",
+  "process": [
+    "Loanee farmers are enrolled automatically by their lending bank unless they opt out",
+    "Non-loanee farmers apply via the PMFBY portal, a participating bank, or a Common Service Centre before the season's cut-off date",
+    "Declare the crop, area, and land details, and pay the farmer's share of the premium",
+    "In case of crop loss, report it within the notified window via the app/portal or through the local agriculture office",
+    "Claim is assessed via Crop Cutting Experiments/remote sensing and settled to the farmer's bank account"
+  ],
+  "officialUrl": "https://pmfby.gov.in",
+  "applyUrl": "https://pmfby.gov.in/farmerRegistrationForm",
+  "trackUrl": "https://pmfby.gov.in/claimStatus",
+  "lastVerified": "2026-08-20",
+  "source": "Ministry of Agriculture & Farmers Welfare",
+  "faq": [
+    {
+      "question": "Is PMFBY compulsory for all farmers?",
+      "answer": "It's compulsory for farmers who have taken a Seasonal Agricultural Operations (crop) loan from a bank, unless they actively opt out. It's entirely voluntary for non-loanee farmers."
+    },
+    {
+      "question": "How much premium does a farmer actually pay?",
+      "answer": "Just 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for horticultural/commercial crops — the government subsidises the rest of the actuarial premium."
+    }
+  ],
+  "relatedServices": ["kisan-credit-card", "pm-kisan"],
+  "tags": ["pmfby", "crop insurance", "fasal bima", "farmer scheme", "agriculture"],
+  "changeLog": []
+}

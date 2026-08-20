@@ -1,0 +1,43 @@
+{
+  "slug": "marriage-certificate",
+  "name": "Marriage Certificate",
+  "category": "certificates",
+  "department": "State Sub-Registrar / Marriage Registration Office",
+  "state": "all",
+  "summary": "Legal proof of marriage, registered under the Hindu Marriage Act (for Hindus, Sikhs, Buddhists, Jains) or the Special Marriage Act (for interfaith/civil marriages), required for passports, visas, and joint bank accounts.",
+  "eligibility": [
+    "Groom must be over 21 years of age; bride over 18 years of age",
+    "Hindu Marriage Act: applies to Hindus, Sikhs, Buddhists, and Jains",
+    "Special Marriage Act: applies to interfaith and civil marriages, or marriages outside personal religious law"
+  ],
+  "documents": [
+    "Identity and address proof of both parties",
+    "Passport-size photographs of both parties",
+    "Proof of marriage (wedding invitation, photographs) and witnesses' ID proof",
+    "Affidavit confirming marital status and marriage details"
+  ],
+  "fee": "Nominal registration fee, typically ₹100-500 depending on the state and act used",
+  "process": [
+    "Apply online or in person at the local Sub-Registrar/Marriage Registration Office",
+    "Submit the affidavit, identity/address proof, photographs, and witness details",
+    "Hindu Marriage Act: certificate typically issued within 7-15 working days after a single appointment",
+    "Special Marriage Act: requires a 30-day public notice period before the marriage can be solemnised/registered",
+    "Certificate is issued after verification and signing by the Registrar"
+  ],
+  "officialUrl": "https://services.india.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "State Sub-Registrar Offices (via services.india.gov.in directory)",
+  "faq": [
+    {
+      "question": "Which act should I register under?",
+      "answer": "If both partners are Hindu, Sikh, Buddhist, or Jain, the Hindu Marriage Act is faster (single appointment). For interfaith, interfaith-conversion-avoiding, or civil marriages, use the Special Marriage Act, which requires a 30-day public notice period."
+    },
+    {
+      "question": "Is marriage registration compulsory in India?",
+      "answer": "Most states have made registration compulsory, and it's practically essential for passport applications, visas, and many financial/legal processes, even where religious ceremonies are separately valid."
+    }
+  ],
+  "relatedServices": ["passport", "birth-certificate"],
+  "tags": ["marriage certificate", "marriage registration", "hindu marriage act", "special marriage act"],
+  "changeLog": []
+}

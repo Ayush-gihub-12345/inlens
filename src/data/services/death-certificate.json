@@ -1,0 +1,43 @@
+{
+  "slug": "death-certificate",
+  "name": "Death Certificate",
+  "category": "certificates",
+  "department": "Office of the Registrar General of India — Civil Registration System (CRS)",
+  "state": "all",
+  "summary": "Official proof of death registered with the local municipal or panchayat authority, required for insurance claims, property transfer, and closing the deceased's accounts.",
+  "eligibility": [
+    "Every death occurring in India must be registered within 21 days, free of charge, by a family member, hospital, or local informant",
+    "Late registration is possible with a delay fee; registration after 1 year requires a magistrate/District Magistrate order"
+  ],
+  "documents": [
+    "Medical Certificate of Cause of Death (MCCD) for hospital deaths, or cremation/burial certificate",
+    "Aadhaar card of the deceased",
+    "Applicant's identity proof"
+  ],
+  "fee": "Free within 21 days of death. ₹5-25 for delayed registration (22 days to 1 year); ₹25 plus a District Magistrate order for registration after 1 year.",
+  "process": [
+    "Hospital or informant reports the death to the local registrar (municipal corporation/panchayat)",
+    "For online applications, register on your state's CRS/e-District portal and fill Form 2",
+    "Upload the MCCD/cremation certificate, Aadhaar of the deceased, and applicant ID",
+    "Registration is entered into the Civil Registration System",
+    "Certificate is issued digitally (QR-code signed) or physically, typically within 7 days for on-time registrations"
+  ],
+  "officialUrl": "https://crsorgi.gov.in",
+  "applyUrl": "https://crsorgi.gov.in/web/index.php/auth/login",
+  "trackUrl": "https://crsorgi.gov.in",
+  "lastVerified": "2026-08-20",
+  "source": "Office of the Registrar General of India (CRS)",
+  "faq": [
+    {
+      "question": "What if the death wasn't registered within 21 days?",
+      "answer": "It can still be registered late with a delay fee (₹5-25 up to 1 year). Registration beyond 1 year additionally requires an order from a District Magistrate or the state-designated authority."
+    },
+    {
+      "question": "Is the digital death certificate legally valid?",
+      "answer": "Yes — the CRS portal issues QR-code digitally signed certificates that are accepted for legal purposes including insurance claims, bank account closure, and property transfer."
+    }
+  ],
+  "relatedServices": ["birth-certificate"],
+  "tags": ["death certificate", "crs", "civil registration", "mccd"],
+  "changeLog": []
+}
